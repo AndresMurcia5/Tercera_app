@@ -13,7 +13,7 @@ if year == 2024:
 elif year == 2023:
     df_m.to_parquet("hombres23.parquet")
     df_f.to_parquet("mujeres23.parquet")
-else year == 2022:
+else:
     df_m.to_parquet("hombres22.parquet")
     df_f.to_parquet("mujeres22.parquet")
 fig, ax = plt.subplots(1, 2, figsize=(10, 6))
